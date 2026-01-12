@@ -7,6 +7,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>Hima01-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
+	<properties>
+  <sonar.host.url>http://13.233.3.20:9000/</sonar.host.url>
+  <sonar.login>6e5bd158d696df59e3847f7d116988d78fec7e8f</sonar.login>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
